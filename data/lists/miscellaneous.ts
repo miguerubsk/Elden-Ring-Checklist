@@ -631,7 +631,7 @@ export const MiscellaneousList: Array<ListType> = [
   },
   {
     id: "4934833c-c363-4ecf-a238-cea2bccece33",
-    name: "Bell Bearings",
+    name: "Esferas",
     requirements: [
       {
         id: "d31a2e70-448c-4590-b2c2-f3593b74abea",
