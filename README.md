@@ -22,7 +22,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">
+  <a href="https://miguerubsk.github.io/Elden-Ring-Checklist/">
     <img src="public/android-chrome-256x256.png" alt="Logo" width="256" height="256">
   </a>
 
@@ -32,11 +32,11 @@
     A checklist for you to complete as you go through Elden Ring. 
     <br />
     <br />
-    <a href="https://gobluebro.github.io/Elden-Ring-Checklist/">Visit the website</a>
+    <a href="http://miguerubsk.ddns.net:8000/">Visit the website</a>
     ·
-    <a href="https://github.com/Gobluebro/Elden-Ring-Checklist/issues">Report Bug</a>
+    <a href="https://github.com/miguerubsk/Elden-Ring-Checklist">Report Bug</a>
     ·
-    <a href="https://github.com/Gobluebro/Elden-Ring-Checklist/issues">Request Feature</a>
+    <a href="https://github.com/miguerubsk/Elden-Ring-Checklist">Request Feature</a>
   </p>
 </div>
 
@@ -70,8 +70,8 @@
 
 ## About The Project
 
-<a href="http://miguerubsk.ddns.net:8000">
-  <img src="https://raw.githubusercontent.com/Gobluebro/Elden-Ring-Checklist/main/public/README/2023-04-22%2002_26_29-Elden%20Ring%20Checklist.png" alt="Website Screenshot" title="Website Screenshot">
+<a href="http://miguerubsk.ddns.net:8000/">
+  <img src="https://raw.githubusercontent.com/miguerubsk/Elden-Ring-Checklist/main/public/README/2023-04-22%2002_26_29-Elden%20Ring%20Checklist.png" alt="Website Screenshot" title="Website Screenshot">
 </a>
 
 This project is meant to allow you to explore the game on your own pace. There are many different ways you can play the game. I'm certainly not going to tell you how to play it. If you wish to keep track and complete as much as possible through your playthrough, I hope that this website can help with that. Esto es una traducción del proyecto de [Gobluebro](https://github.com/miguerbsk/Elden-Ring-Checklist)
