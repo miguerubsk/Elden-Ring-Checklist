@@ -10,6 +10,15 @@ const Footer = () => {
           Github
         </a>
       </span>
+      <span>
+        Check out the original project on{" "}
+        <a
+          className="text-elden-ring-green dark:text-elden-ring-gold font-bold hover:underline"
+          href="https://github.com/Gobluebro/Elden-Ring-Checklist"
+        >
+          Github
+        </a>
+      </span>
     </footer>
   );
 };
