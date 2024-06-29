@@ -570,15 +570,84 @@ export const MiscellaneousList: Array<ListType> = [
   },
   {
     id: "23692819-22c3-4623-8670-d7fa23d9d932",
-    name: "Objetos principales (WIP)",
+    name: "Pergaminos",
     requirements:[
       {
         id: "a7d8f3da-04c0-4890-94f2-ecc4682c6182",
         description: rawHTMLLink(
-          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p71.php",
-          "Aguja"
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p206.php",
+          "Pergamino de la academia"
         ),
-      }
+      },
+      {
+        id: "124e352a-8bb5-45e7-94bb-b27398b50c3a",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p110.php",
+          "Pergamino de la Casa Real"
+        ),
+      },
+      {
+        id: "42c018e6-1663-4343-9748-e5ef26ffd95b",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p291.php",
+          "Pergamino del epítome"
+        ),
+      },
+    ]
+  },
+  {
+    id: "72a14302-d79c-41a6-a566-0070389de19c",
+    name: "Devocionarios",
+    requirements: [
+      {
+        id: "20f0fd65-a0ad-41ba-a5c3-a83c7e758097",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p185.php",
+          "Devocionario del asesino"
+        ),
+      },
+      {
+        id: "89b280ac-5a4a-411d-975c-8fce9d289b2b",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p226.php",
+          "Devocionario del culto draconiano"
+        ),
+      },
+      {
+        id: "5160f5db-34d8-40c3-adcc-46b386bce07a",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p544.php",
+          "Devocionario del dragón antiguo"
+        ),
+      },
+      {
+        id: "36b6ff30-fd07-44a1-8008-909584b52c43",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p515.php",
+          "Devocionario del Gigante"
+        ),
+      },
+      {
+        id: "2514d69a-5bef-4ffc-bc3a-52466905ed01",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p484.php",
+          "Devocionario de los Dos Dedos"
+        ),
+      },
+      {
+        id: "01fe27f1-231c-4187-98d5-37451b2de86b",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p218.php",
+          "Devocionario de los monjes ígneos"
+        ),
+      },
+      {
+        id: "317446f9-e742-4560-a067-6a6b27a02caa",
+        description: rawHTMLLink(
+          "https://www.eliteguias.com/guias/e/er/elden-ring_objetos-p196.php",
+          "Devocionario sacrodermo"
+        )
+      },
     ]
   },
   {
