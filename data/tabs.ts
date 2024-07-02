@@ -55,9 +55,9 @@ export const MainTabDataArray: TabData[] = [
   },
   {
     id: 5,
-    name: "Mejoras del Frasco",
-    enum: TabNames.FlaskUpgrades,
-    listData: FlaskUpgradesList,
+    name: "Mejoras",
+    enum: TabNames.Upgrades,
+    listData: UpgradesList,
   },
 ];
 
