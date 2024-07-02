@@ -55,7 +55,7 @@ export const MainTabDataArray: TabData[] = [
   },
   {
     id: 5,
-    name: "Mejoras del Frasco",
+    name: "Mejoras",
     enum: TabNames.Upgrades,
     listData: UpgradesList,
   },
