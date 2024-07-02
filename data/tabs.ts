@@ -4,7 +4,7 @@ import {
   GracesList,
   MiscellaneousList,
   QuestsList,
-  FlaskUpgradesList,
+  UpgradesList,
   ListType,
   WeaponsList,
   SpellsList,
@@ -15,7 +15,7 @@ export enum TabNames {
   Achievements,
   Graces,
   Bosses,
-  FlaskUpgrades,
+  Upgrades,
   Miscellaneous,
   Weapons,
   Spells,
@@ -56,8 +56,8 @@ export const MainTabDataArray: TabData[] = [
   {
     id: 5,
     name: "Mejoras del Frasco",
-    enum: TabNames.FlaskUpgrades,
-    listData: FlaskUpgradesList,
+    enum: TabNames.Upgrades,
+    listData: UpgradesList,
   },
 ];
 
