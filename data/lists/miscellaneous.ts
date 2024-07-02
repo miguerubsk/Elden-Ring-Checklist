@@ -3,6 +3,412 @@ import { ListType } from "./types";
 
 export const MiscellaneousList: Array<ListType> = [
   {
+    id: "98a5935f-ab86-41e7-9201-8d957aad4220",
+    name: "Cracked Pot",
+    url: "https://eldenring.wiki.fextralife.com/Cracked+Pot",
+    requirements: [
+      {
+        id: "c24c0492-c9f9-43cd-b973-5717fab0ab2b",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Merchant+Kal%C3%A9",
+            "Purchase 3 from Merchant Kalé - Limgrave"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=4&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "364050e5-3420-4de0-99c5-9021dc2d9d07",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Groveside+Cave",
+            "Found on a corpse - Groveside Cave - Limgrave"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/interactive+map?id=6751&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "4bd010c9-3297-4369-aa52-32c6a5cb6356",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+North+Limgrave",
+            "Purchase 1 from Nomadic Merchant North Limgrave - Limgrave"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=959&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "ff273d37-81ab-4b29-9793-37aa63f4b42e",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Castle+Morne+Rampart",
+            "Purchase 1 from Nomadic Merchant Castle Morne Rampart - Weeping Peninsula"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=475&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "2200f789-3845-420a-ab6f-0910f08f7cd6",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6810&code=mapA",
+          "Found 2 near Secluded Cell - Stormveil Castle"
+        ),
+      },
+      {
+        id: "bd4af449-4690-431f-923e-cf6850eb39cb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jarburg",
+          "Found on a corpse - Jarburg - Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "235bb327-2e34-4b94-93ea-ee888e78c9e8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jarburg",
+          "Found inside a hut - Jarburg - Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "7b700216-116f-4b16-a5d2-7f3fdd024fde",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Jarburg",
+          "Found on a large headstone - Jarburg - Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "45a225a1-7e35-45e3-80f4-7bcc61c91c6e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6546&code=mapA",
+          "Found on a corpse - Debate Parlor - Raya Lucaria Academy"
+        ),
+      },
+      {
+        id: "1aa769f7-c8d2-4a2d-a087-61c0b3d51c71",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/interactive+map?id=1532&code=mapA",
+          "Royal Moongazing Grounds - Caria Manor"
+        ),
+      },
+      {
+        id: "6a956e63-c5ca-48d7-a986-72670254bac8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5435&code=mapA",
+          "Found on a tree branch - Minor Erdtree (Caelid)"
+        ),
+      },
+      {
+        id: "bda0113b-ec50-4a72-a45a-57372e0536f5",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Nomadic+Merchant+Caelid+South",
+            "Purchase 1 from Nomadic Merchant Caelid South - Caelid"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/interactive+map?id=1158&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "1b1c73dd-c7e5-43a0-900f-5c52e6b461a1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6811&code=mapA",
+          "Find 4 (2 if keepsake was Cracked Pot) at Auriza Side Tomb - Capital Outskirts"
+        ),
+      },
+      {
+        id: "1fc7057e-1980-4fe6-9fb7-829b56ee57c0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=3851&code=mapA",
+          "Found on a corpse - Avenue Balcony - Leyndell, Royal Capital"
+        ),
+      },
+    ],
+  },
+  {
+    id: "8bf44a9f-3f0c-4ca0-9045-fc7a11e36932",
+    name: "Crystal Tears",
+    url: "https://eldenring.wiki.fextralife.com/Crystal+Tears",
+    // not actually in alphabetically order
+    // I don't have all of them currently to check the true order
+    requirements: [
+      {
+        id: "a0e39f8f-9ac0-47b8-846a-3b70cf23e411",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Bloodsucking+Cracked+Tear",
+          "Bloodsucking Cracked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "b5f848b8-7f06-4c09-8a13-9d9d6853db45",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Crystal+Tear",
+          "Cerulean Crystal Tear"
+        ),
+      },
+      {
+        id: "0ed2c97d-0188-41d2-bc00-b8ff460f07e4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Hidden+Tear",
+          "Cerulean Hidden Tear"
+        ),
+      },
+      {
+        id: "2d6d1c22-88b1-4c56-852e-169f74448dba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean-Sapping+Cracked+Tear",
+          "Cerulean-sapping Cracked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "a33ef947-4068-4393-8157-d866accc6bf5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Bubbletear",
+          "Crimson Bubbletear"
+        ),
+      },
+      {
+        id: "36be3c2b-ce73-4f6d-a3ad-f54b1c39586d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Crystal+Tear",
+          "Crimson Crystal Tear"
+        ),
+      },
+      {
+        id: "67ff796e-fccb-45c9-be01-de956cd361be",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson-Sapping+Cracked+Tear",
+          "Crimson-sapping Cracked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "9991e6c4-7fde-4142-8efc-78a034173fba",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonburst+Crystal+Tear",
+          "Crimsonburst Crystal Tear"
+        ),
+      },
+      {
+        id: "6d8e5752-9f73-4a5b-b37c-f081aac0e612",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonburst+Dried+Tear",
+          "Crimsonburst Dried Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "6c482080-f5ee-478c-9314-2417714d230c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonspill+Crystal+Tear",
+          "Crimsonspill Crystal Tear"
+        ),
+      },
+      {
+        id: "ed02410d-7ce4-4d60-bf43-35e96b435e24",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimsonwhorl+Bubbletear",
+          "Crimsonwhorl Bubbletear"
+        ),
+      },
+      {
+        id: "b3a49933-6ef5-44ea-8038-4fb128e94ea0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Deflecting+Hardtear",
+          "Deflecting Hardtear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "85c221e9-0fc6-48b4-b1fb-15baeb8e817d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dexterity-knot+Crystal+Tear",
+          "Dexterity-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "f8810d62-b54c-4eba-a69f-999bbcaaa33f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Faith-knot+Crystal+Tear",
+          "Faith-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "79c261c0-5f9c-4528-9db4-625ef7a075cf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flame-Shrouding+Cracked+Tear",
+          "Flame-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "9ee22f08-6343-4683-b125-4a025649efc2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Glovewort+Crystal+Tear",
+          "Glovewort Crystal Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "ac6846cc-dae4-4ba8-b1cd-485637da8c34",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greenburst+Crystal+Tear",
+          "Greenburst Crystal Tear"
+        ),
+      },
+      {
+        id: "5330ad03-57cc-4a8c-829a-91713eec524b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Greenspill+Crystal+Tear",
+          "Greenspill Crystal Tear"
+        ),
+      },
+      {
+        id: "6136e523-63da-49dc-ac8e-a8f019fa3907",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Holy-Shrouding+Cracked+Tear",
+          "Holy-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "5953c052-27d5-440e-b03f-506945479cfb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Intelligence-knot+Crystal+Tear",
+          "Intelligence-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "72b90965-0033-4e36-99d5-85beaac2eaa1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Leaden+Hardtear",
+          "Leaden Hardtear"
+        ),
+      },
+      {
+        id: "bdcfb739-e935-400e-b28d-2bfa781c0c40",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Lightning-Shrouding+Cracked+Tear",
+          "Lightning-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "fc8258b1-7941-42f6-aad9-29d28203b291",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Magic-Shrouding+Cracked+Tear",
+          "Magic-shrouding Cracked Tear"
+        ),
+      },
+      {
+        id: "3b860d1d-375d-4cf2-8b06-b1d096cc8eb9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Oil-Soaked+Tear",
+          "Oil-soaked Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "66e11134-495d-4871-bc8f-ee8fd1171504",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Opaline+Bubbletear",
+          "Opaline Bubbletear"
+        ),
+      },
+      {
+        id: "8c3a8075-76b3-40f9-9004-2191b6ce02fb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Opaline+Hardtear",
+          "Opaline Hardtear"
+        ),
+      },
+      {
+        id: "73482720-2787-4970-b44c-e2eb9d786d97",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Purifying+Crystal+Tear",
+          "Purifying Crystal Tear"
+        ),
+      },
+      {
+        id: "14dee1f9-6d36-4ef1-bac8-a9f96be61703",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Ruptured+Crystal+Tear",
+          "Ruptured Crystal Tear"
+        ),
+      },
+      {
+        id: "eb9a1382-a3bd-4ac2-ab76-4ee03538dd36",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Speckled+Hardtear",
+          "Speckled Hardtear"
+        ),
+      },
+      {
+        id: "5df7bf88-7f5c-4d31-8f85-86bc4f479fda",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spiked+Cracked+Tear",
+          "Spiked Cracked Tear"
+        ),
+      },
+      {
+        id: "e82b0b64-d491-4c01-b4ae-18726505031d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stonebarb+Cracked+Tear",
+          "Stonebarb Cracked Tear"
+        ),
+      },
+      {
+        id: "7850b04e-4972-4ff7-938f-dc6d35f2684f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Strength-knot+Crystal+Tear",
+          "Strength-knot Crystal Tear"
+        ),
+      },
+      {
+        id: "0d59229c-3408-4b6a-8d58-57338512c4c8",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Thorny+Cracked+Tear",
+          "Thorny Cracked Tear"
+        ),
+      },
+      {
+        id: "ec894f70-7348-408d-a297-723883ba8338",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Twiggy+Cracked+Tear",
+          "Twiggy Cracked Tear"
+        ),
+      },
+      {
+        id: "46788875-1a73-45cd-8db6-139ef682a3ef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Viridian+Hidden+Tear",
+          "Viridian Hidden Tear"
+        ),
+        isDLC: true,
+      },
+      {
+        id: "4cb722dd-28dc-4e2c-81dc-85ff8277bc6a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Windy+Crystal+Tear",
+          "Windy Crystal Tear"
+        ),
+      },
+      {
+        id: "6c28bf48-c557-4c3c-b350-5522c5f9ae67",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Winged+Crystal+Tear",
+          "Winged Crystal Tear"
+        ),
+      },
+    ],
+  },
+  {
     id: "d190e862-59d4-4868-85db-82e80f3d8807",
     name: "Gestos", // not counting automatically received gestures
     url: "https://www.eliteguias.com/guias/e/er/elden-ring_gestos.php",
@@ -42,6 +448,11 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "defe98bf-073a-43b3-8e3a-a54b0d3221fe",
         description: "¡Fuerza!",
+      },
+      {
+        id: "6a5c8397-e92c-426f-8df7-572679c575aa",
+        description: "May the Best Win",
+        isDLC: true,
       },
       {
         id: "e36b5e25-ab07-44c0-914d-3e4df5d40ff7",
@@ -86,6 +497,11 @@ export const MiscellaneousList: Array<ListType> = [
       {
         id: "31a13275-3ba3-4f23-8780-ac3581064a56",
         description: "¿Qué quieres?",
+      },
+      {
+        id: "1ed73fa1-be86-470a-b991-bef751b3edb1",
+        description: "Ring of Miquella",
+        isDLC: true,
       },
       {
         id: "84189621-279f-4ee4-9e74-c0aa53c62467",
@@ -1069,6 +1485,176 @@ export const MiscellaneousList: Array<ListType> = [
     ],
   },
   {
+    id: "11ba4bf3-fea7-49ef-960f-4bd6f843192b",
+    name: "Perfume Bottle",
+    url: "https://eldenring.wiki.fextralife.com/Perfume+Bottle",
+    requirements: [
+      {
+        id: "8686de75-cd31-4186-862d-170e4ff3d33b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5707&code=mapA",
+          "Street of Sages Ruins, Caelid"
+        ),
+      },
+      {
+        id: "5adb2faa-1059-47de-bbfd-2e5bf61746db",
+        description: rawHTMLLink(
+          // wiki is missing the map link for this one
+          "https://eldenring.wiki.fextralife.com/file/Elden-Ring/volcano_manor_ground_floor_level_dungeon_map_elden_ring_wiki_guide_1374px.jpg?v=1652622586762",
+          "Volcano Manor, Mt Gelmir"
+        ),
+      },
+      {
+        id: "e11e61e2-28db-45cc-a18c-7cb5f98b5b3c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2842&code=mapA",
+          "The Shaded Castle, Altus Plateau"
+        ),
+      },
+      {
+        id: "6076fac1-78d9-4b7a-96ad-9ecc58571502",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6859&code=mapA",
+          "Perfumer's Ruin #1, Altus Plateau"
+        ),
+      },
+      {
+        id: "92c7ebcb-1f49-4851-bbce-ae2ac5741035",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6859&code=mapA",
+          "Perfumer's Ruin #2, Altus Plateau"
+        ),
+      },
+      {
+        id: "38315e4e-5fb3-407c-a74a-782f036f857e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=8302&code=mapA",
+          "Altus Highway Junction, Altus Plateau"
+        ),
+      },
+      {
+        id: "2246d2e3-ecd1-4358-a8fc-f48d0d91d43e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5423&code=mapA",
+          "Purchase 1 from Hermit Merchant (Leyndell)"
+        ),
+      },
+      {
+        id: "a666a425-d8df-4882-9aca-84a14aabece0",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=4593&code=mapA",
+          "Perfumer's Grotto, Altus Plateau"
+        ),
+      },
+      {
+        id: "07822492-d725-41b0-82bf-5ae1f50dec96",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2870&code=mapA",
+          "East Capital Rampart, Leyndell, Royal Capital"
+        ),
+      },
+      {
+        id: "b7e8bd03-8d2c-4add-87ec-8ce242b65e34",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=3823&code=mapA",
+          "Avenue Balcony, Leyndell, Royal Capital"
+        ),
+      },
+    ],
+  },
+  {
+    id: "a5a975e9-b466-46f9-b070-ffc382a2face",
+    name: "Ritual Pot",
+    url: "https://eldenring.wiki.fextralife.com/Ritual+Pot",
+    requirements: [
+      {
+        id: "cb270b86-6d3b-43c1-abfc-d1ae2bc11233",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/interactive+map?id=1503&code=mapA",
+          "Laskyar Ruins, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "e8268c69-01f5-42a0-8781-6fc44c196d4e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2213&code=mapA",
+          "Treasure Chest, Raya Lucaria Academy"
+        ),
+      },
+      {
+        id: "cebe0c2e-378d-4c8e-b132-0a8ef2b4ad53",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&code=mapA",
+          "Roof, Jarburg, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "1c03996d-3944-484c-b540-10405b613b77",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Interactive+Map?id=5864&code=mapA",
+          "Large decorative jar, Jarburg, Liurnia of the Lakes"
+        ),
+      },
+      {
+        id: "18fc7532-676f-4bb6-bb4d-1eac40cab7f6",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Pidia,+Carian+Servant",
+            "Purchase 1 from Pidia, Carian Servant, Caria Manor."
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2920&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "d45a12da-aab9-4391-b5db-d1b31e594bbc",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Isolated+Merchant+Dragonbarrow",
+            "Purchase 1 from Isolated Merchant Dragonbarrow, Dragonbarrow"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+map?id=2353&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+      {
+        id: "f9caebce-f418-4b69-b0b0-54ccc84d27df",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Auriza+Side+Tomb",
+          "#1 guarded by large Living Jar, Auriza Side Tomb, Capital Outskirts"
+        ),
+      },
+      {
+        id: "b8d1e3fe-81c3-457b-b6d0-f80f7d9f4d90",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Auriza+Side+Tomb",
+          "#2 guarded by large Living Jar, Auriza Side Tomb, Capital Outskirts"
+        ),
+      },
+      {
+        id: "d9376521-b618-4707-84a2-570b9c2fd5b7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Subterranean+Shunning-Grounds",
+          "Forsaken Depths, Subterranean Shunning-Grounds"
+        ),
+      },
+      {
+        id: "60379d47-cb29-474e-b8b8-0aea93af4ca6",
+        description:
+          rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Giants'+Mountaintop+Catacombs",
+            "Giants' Mountaintop Catacombs, Mountaintops of the Giants"
+          ) +
+          ` [${rawHTMLLink(
+            "https://eldenring.wiki.fextralife.com/Interactive+Map?id=8503&code=mapA",
+            "Map Link"
+          )}]`,
+      },
+    ],
+  },
+  {
     id: "4333b202-5590-4256-aa6f-e5f862b3bf37",
     name: "Talismanes",
     url: "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes.php",
@@ -1099,6 +1685,13 @@ export const MiscellaneousList: Array<ListType> = [
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p21.php",
           "Amuleto de arsenal"
+        ),
+      },
+      {
+        id: "7c93f796-2db2-4279-a37c-3991f5a46bcd",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Arsenal+Charm",
+          "Arsenal Charm +1"
         ),
       },
       {
@@ -1158,6 +1751,28 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "c4e0497d-7643-4f74-ac23-1528e6a745ff",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman +1"
+        ),
+      },
+      {
+        id: "9ee6a0c6-cb8f-437c-8889-9286285084d2",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman +2"
+        ),
+      },
+      {
+        id: "20caba8f-28cb-4b18-b28f-13ebde5554c5",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Boltdrake+Talisman",
+          "Boltdrake Talisman +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "ee67902a-bd5c-4a8f-b9dc-bf613c967c6f",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p32.php",
@@ -1179,6 +1794,28 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "931087fd-4dcc-4013-9537-616f37350d77",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion +1"
+        ),
+      },
+      {
+        id: "55dfa1ac-ed19-4053-b27a-af7bef098069",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion +2"
+        ),
+      },
+      {
+        id: "43e5a37a-116f-4b7f-b985-448c5d63fb23",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Amber+Medallion",
+          "Cerulean Amber Medallion +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "839e3238-a3ee-4874-aa5f-f17a1faa3545",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p28.php",
@@ -1186,11 +1823,34 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "38ad9601-c0a0-4fb6-8987-64e45d3af21c",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Cerulean+Seed+Talisman",
+          "Cerulean Seed Talisman +1"
+        ),
+        isDLC: true,
+      },
+      {
         id: "e7a746b2-e82e-441b-b449-7211039d8a7f",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p76.php",
           "Empañadura sacroderma"
         ),
+      },
+      {
+        id: "b443065e-5ea1-419e-949f-86f57eb89326",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "Clarifying Horn Charm +1"
+        ),
+      },
+      {
+        id: "35e64ffa-f910-4f1a-9ab1-b22b68b7ff3f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Clarifying+Horn+Charm",
+          "Clarifying Horn Charm +2"
+        ),
+        isDLC: true,
       },
       {
         id: "63e1708f-8085-419f-88cd-fdae2d5a29db",
@@ -1228,11 +1888,41 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "e1bd2808-96db-4bd9-a642-e466dd8d9e0f",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "Crimson Amber Medallion +1"
+        ),
+      },
+      {
+        id: "08b21705-6704-41aa-9e64-74fd4db109cb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "Crimson Amber Medallion +2"
+        ),
+      },
+      {
+        id: "ac620f96-350d-4b6a-b911-09587ad5e8ce",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Amber+Medallion",
+          "Crimson Amber Medallion +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "c00c46c3-e7f9-4a29-a645-6b4d15b917a3",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p73.php",
           "Exaltación del Señor de la Sangre"
         ),
+      },
+      {
+        id: "41a4de5e-cec3-4553-bbb8-733918e6f82d",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Crimson+Seed+Talisman",
+          "Crimson Seed Talisman +1"
+        ),
+        isDLC: true,
       },
       {
         id: "b378e454-5e2d-4716-9e4d-2507ebb47a77",
@@ -1291,10 +1981,38 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "1c2bf93a-079a-4dbe-85e5-102e0599aa89",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
+          "Dragoncrest Shield Talisman +1"
+        ),
+      },
+      {
+        id: "8978de2a-a1c3-422f-81e1-52fc0418ea15",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Dragoncrest+Shield+Talisman",
+          "Dragoncrest Shield Talisman +2"
+        ),
+      },
+      {
         id: "90bcfd6e-08b5-4661-b956-844201e5762b",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p53.php",
           "Luna de Nokstella"
+        ),
+      },
+      {
+        id: "531ebf4a-080a-4b1f-b926-de0b71c2aaef",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "Erdtree's Favor +1"
+        ),
+      },
+      {
+        id: "3c6f516d-cb0a-434a-b991-bec0e8a2c629",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Erdtree's+Favor",
+          "Erdtree's Favor +2"
         ),
       },
       {
@@ -1317,6 +2035,28 @@ export const MiscellaneousList: Array<ListType> = [
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p79.php",
           "Marca ulcerada de Márika"
         ),
+      },
+      {
+        id: "f037ae8e-7a55-4819-9933-f0ccf3552fea",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "Flamedrake Talisman +1"
+        ),
+      },
+      {
+        id: "bb4407ed-6326-4aa5-974d-37d7e8b823fb",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "Flamedrake Talisman +2"
+        ),
+      },
+      {
+        id: "3081b6c1-bac3-406a-959f-5ba6f4c752e9",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Flamedrake+Talisman",
+          "Flamedrake Talisman +3"
+        ),
+        isDLC: true,
       },
       {
         id: "ce589206-0721-4744-874f-5c075282f257",
@@ -1396,6 +2136,20 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "43ac72a9-6522-4160-b19b-be84a135c75a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman",
+          "Haligdrake Talisman +1"
+        ),
+      },
+      {
+        id: "2db447ef-4399-4443-ab9a-96d011440212",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Haligdrake+Talisman",
+          "Haligdrake Talisman +2"
+        ),
+      },
+      {
         id: "3ab54e5e-27fc-45ae-a1c0-e01230ea118f",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p44.php",
@@ -1415,6 +2169,21 @@ export const MiscellaneousList: Array<ListType> = [
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p25.php",
           "Reliquia de los Dos Dedos"
         ),
+      },
+      {
+        id: "103c36d6-0729-42c9-a254-6a4d23f463d4",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
+          "Immunizing Horn Charm +1"
+        ),
+      },
+      {
+        id: "3fefd3b7-242a-47d4-bfb7-17d794995b27",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Immunizing+Horn+Charm",
+          "Immunizing Horn Charm +2"
+        ),
+        isDLC: true,
       },
       {
         id: "1c678569-2604-4651-81da-15bd665af20c",
@@ -1494,6 +2263,21 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "c1dd9988-d8fc-45b3-b3e3-80cc09c39c92",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mottled+Necklace",
+          "Mottled Necklace +1"
+        ),
+      },
+      {
+        id: "c3756d80-4b3c-4948-9bb0-5d72939f8aee",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Mottled+Necklace",
+          "Mottled Necklace +2"
+        ),
+        isDLC: true,
+      },
+      {
         id: "94f1ac30-8a5b-40a1-a506-c1d2d045b395",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p14.php",
@@ -1506,6 +2290,28 @@ export const MiscellaneousList: Array<ListType> = [
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p12.php",
           "Talismán de alcance de flecha"
         ),
+      },
+      {
+        id: "a268e933-ed61-420a-9c45-e58b263296ca",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "Pearldrake Talisman +1"
+        ),
+      },
+      {
+        id: "acd53048-5a67-4327-9f70-934e5a46e8b7",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "Pearldrake Talisman +2"
+        ),
+      },
+      {
+        id: "df53c672-63f8-4179-8425-cc8a6859aa88",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Pearldrake+Talisman",
+          "Pearldrake Talisman +3"
+        ),
+        isDLC: true,
       },
       {
         id: "56e6828f-1db3-463a-b6f1-539a99c9a60f",
@@ -1641,11 +2447,48 @@ export const MiscellaneousList: Array<ListType> = [
         ),
       },
       {
+        id: "f06f8b08-afa5-41ab-8993-ddfe22c2e9cf",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "Spelldrake Talisman +1"
+        ),
+      },
+      {
+        id: "0883d849-c240-498a-b565-60a4fbd19575",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "Spelldrake Talisman +2"
+        ),
+      },
+      {
+        id: "62401a59-56c9-4a00-983b-f55d39a8973b",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Spelldrake+Talisman",
+          "Spelldrake Talisman +3"
+        ),
+        isDLC: true,
+      },
+      {
         id: "50255550-740c-4890-b0ba-6ed1d3edf200",
         description: rawHTMLLink(
           "https://www.eliteguias.com/guias/e/er/elden-ring_talismanes-p26.php",
           "Talismán de semilla cerúlea"
         ),
+      },
+      {
+        id: "51dc7e48-86e1-47ca-b902-00f2aaef505a",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
+          "Stalwart Horn Charm +1"
+        ),
+      },
+      {
+        id: "b25462ae-e151-4615-b661-a66e7af99072",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Stalwart+Horn+Charm",
+          "Stalwart Horn Charm +2"
+        ),
+        isDLC: true,
       },
       {
         id: "cb603d92-6fbe-4e50-b88d-d14a3a865043",

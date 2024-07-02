@@ -1809,6 +1809,11 @@ export const QuestsList: Array<ListType> = [
           "Talk to Sellen at the Waypoint Ruins Cellar grace about her request and about Lusat's location.",
       },
       {
+        id: "0d0266a5-3cd1-43cb-acfa-4d270936dbe0",
+        description:
+          "Defeat Starscourge Radahn and talk to Sellen at the Waypoint Ruins Cellar grace.",
+      },
+      {
         id: "092a68fc-f94b-4bcc-83b7-b32fdf95f60e",
         description:
           "Talk to Sellen in the Witchbane Ruins where she is shackled. You will receive Sellen's Primal Glintstone.",
@@ -1961,7 +1966,7 @@ export const QuestsList: Array<ListType> = [
       {
         id: "e4b0b2fc-7a40-4af3-94b6-1e65db9e3eac",
         description:
-          "Tanith's Knight will invade. Kill and loot the Knight for Aspect of the Crucible: Breath.",
+          "Tanith's Knight will invade. Kill and loot the Knight for Aspects of the Crucible: Breath.",
       },
     ],
   },
@@ -2012,12 +2017,22 @@ export const QuestsList: Array<ListType> = [
           ),
       },
       {
-        id: "110084c1-17d9-47b6-9d68-c18d3d9cf919",
-        description: "Defeat Margit, The Fell Omen.",
-      },
-      {
         id: "6609a0e2-ffbf-4fce-a037-07c34324315b",
         description: "Gain access to the Roundtable Hold.",
+      },
+      {
+        id: "41bb031c-35eb-4c2f-a6d2-6af4da7ac833",
+        description:
+          "(Optional) Talk to Varre again near The First Step grace.",
+      },
+      {
+        id: "110084c1-17d9-47b6-9d68-c18d3d9cf919",
+        description:
+          "Earn Great Rune by defeating Godrick the Grafted or any other Shardbearer",
+      },
+      {
+        id: "d39ef314-b189-4b14-ae0e-cb1ed1b9f947",
+        description: "Talk to Finger Reader Enia at the Roundtable Hold.",
       },
       {
         id: "0aa93d5a-f424-4ea9-ae4d-d976dfc25dac",
