@@ -134,18 +134,18 @@ export const CollectablesList: Array<ListType> = [
   },
   {
     id: "8bf44a9f-3f0c-4ca0-9045-fc7a11e36932",
-    name: "Crystal Tears",
+    name: "Lágrimas de cristal",
     url: "https://eldenring.wiki.fextralife.com/Crystal+Tears",
     // not actually in alphabetically order
     // I don't have all of them currently to check the true order
     requirements: [
       {
         id: "a0e39f8f-9ac0-47b8-846a-3b70cf23e411",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Bloodsucking+Cracked+Tear",
           "Bloodsucking Cracked Tear"
         ),
-        isDLC: true,
       },
       {
         id: "b5f848b8-7f06-4c09-8a13-9d9d6853db45",
@@ -163,11 +163,11 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "2d6d1c22-88b1-4c56-852e-169f74448dba",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Cerulean-Sapping+Cracked+Tear",
           "Cerulean-sapping Cracked Tear"
         ),
-        isDLC: true,
       },
       {
         id: "a33ef947-4068-4393-8157-d866accc6bf5",
@@ -185,11 +185,11 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "67ff796e-fccb-45c9-be01-de956cd361be",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Crimson-Sapping+Cracked+Tear",
           "Crimson-sapping Cracked Tear"
         ),
-        isDLC: true,
       },
       {
         id: "9991e6c4-7fde-4142-8efc-78a034173fba",
@@ -200,11 +200,11 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "6d8e5752-9f73-4a5b-b37c-f081aac0e612",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Crimsonburst+Dried+Tear",
           "Crimsonburst Dried Tear"
         ),
-        isDLC: true,
       },
       {
         id: "6c482080-f5ee-478c-9314-2417714d230c",
@@ -222,11 +222,11 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "b3a49933-6ef5-44ea-8038-4fb128e94ea0",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Deflecting+Hardtear",
           "Deflecting Hardtear"
         ),
-        isDLC: true,
       },
       {
         id: "85c221e9-0fc6-48b4-b1fb-15baeb8e817d",
@@ -251,11 +251,11 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "9ee22f08-6343-4683-b125-4a025649efc2",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Glovewort+Crystal+Tear",
           "Glovewort Crystal Tear"
         ),
-        isDLC: true,
       },
       {
         id: "ac6846cc-dae4-4ba8-b1cd-485637da8c34",
@@ -308,11 +308,11 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "3b860d1d-375d-4cf2-8b06-b1d096cc8eb9",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Oil-Soaked+Tear",
           "Oil-soaked Tear"
         ),
-        isDLC: true,
       },
       {
         id: "66e11134-495d-4871-bc8f-ee8fd1171504",
@@ -386,11 +386,11 @@ export const CollectablesList: Array<ListType> = [
       },
       {
         id: "46788875-1a73-45cd-8db6-139ef682a3ef",
+        isDLC: true,
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Viridian+Hidden+Tear",
           "Viridian Hidden Tear"
         ),
-        isDLC: true,
       },
       {
         id: "4cb722dd-28dc-4e2c-81dc-85ff8277bc6a",
