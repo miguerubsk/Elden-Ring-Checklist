@@ -22,11 +22,27 @@ export const WeaponsList: Array<ListType> = [
         ),
       },
       {
+        id: "ac3ac1d4-a949-46ed-b258-888043438ff1",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Death+Knight's+Twin+Axes",
+          "Death Knight's Twin Axes"
+        ),
+        isDLC: true,
+      },
+      {
         id: "138d0b66-fe82-43db-b4c5-f547908f0f54",
         description: rawHTMLLink(
           "https://eldenring.wiki.fextralife.com/Forked+Hatchet",
           "Forked Hatchet"
         ),
+      },
+      {
+        id: "13d9d3ef-3888-43f5-a3e5-6dcababf6f73",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Forked-Tongue+Hatchet",
+          "Forked-Tongue Hatchet"
+        ),
+        isDLC: true,
       },
       {
         id: "2f037484-15ca-44da-a842-8a4ab546f9ca",
@@ -174,6 +190,7 @@ export const WeaponsList: Array<ListType> = [
     id: "fa0dfe05-d95f-4734-947e-26ef38e8316b",
     name: "Beast Claws",
     isDLC: true,
+    url: "https://eldenring.wiki.fextralife.com/Beast+Claws",
     requirements: [
       {
         id: "27acb8de-8f01-4789-93eb-92b52696d69e",
@@ -673,6 +690,14 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Dismounter",
           "Dismounter"
         ),
+      },
+      {
+        id: "55bb4c6e-880d-49d2-adee-426c66a5dd3e",
+        description: rawHTMLLink(
+          "https://eldenring.wiki.fextralife.com/Freyja's+Greatsword",
+          "Freyja's Greatsword"
+        ),
+        isDLC: true,
       },
       {
         id: "fbc7b913-c44c-482f-b038-ce8a40cc9db7",
@@ -1963,14 +1988,6 @@ export const WeaponsList: Array<ListType> = [
           "https://eldenring.wiki.fextralife.com/Forked+Greatsword",
           "Forked Greatsword"
         ),
-      },
-      {
-        id: "55bb4c6e-880d-49d2-adee-426c66a5dd3e",
-        description: rawHTMLLink(
-          "https://eldenring.wiki.fextralife.com/Freyja's+Greatsword",
-          "Freyja's Greatsword"
-        ),
-        isDLC: true,
       },
       {
         id: "8cb7a86e-2811-4737-82ed-5db8e0dae1ff",
